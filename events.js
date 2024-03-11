@@ -1,7 +1,5 @@
 const EventEmiter = require("events");
 
-const myEmitter = new EventEmiter();
-
 class Sales extends EventEmiter {
   constructor() {
     super();
@@ -9,6 +7,9 @@ class Sales extends EventEmiter {
 }
 
 // Observer pattern
+
+const myEmitter = new Sales();
+
 myEmitter.on("newSale", () => {
   console.log("There was a new sale!");
 });
