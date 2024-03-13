@@ -11,3 +11,6 @@ console.log(calc1.add(2, 5));
 // console.log(calc2.multiply(2, 5));
 const { add, subtract, multiply, divide } = require("./test-module-2");
 console.log(multiply(2, 5));
+
+// Caching
+require("./test-module-3")();
