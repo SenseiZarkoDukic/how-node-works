@@ -14,3 +14,5 @@ console.log(multiply(2, 5));
 
 // Caching
 require("./test-module-3")();
+require("./test-module-3")();
+require("./test-module-3")();
